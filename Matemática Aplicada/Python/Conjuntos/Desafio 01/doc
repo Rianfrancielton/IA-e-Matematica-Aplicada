@@ -1,0 +1,14 @@
+//o SELF passado como parametro no INIT é a referencia ao objeto que será criado ou que ja existe e será manipulado no programa.
+
+//o ELEMENTS=NONE é um parâmetro opcional que permite criar o objeto sem passar dados iniciais.
+
+//o SELF.ELEMENTS[] é uma lista que pertence ao objeto SELF.
+
+//Método Construtor (__init__):
+
+    //Inicializamos self.elementos como uma lista vazia.
+
+    //Usamos o laço for para percorrer os itens recebidos.
+
+    //A checagem if elemento not in self.elementos: garante que apenas valores inéditos sejam inseridos via .append(), mantendo a propriedade fundamental do conjunto (sem duplicatas).
+
